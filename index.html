@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercadinho Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Usuário">
+    <input type="password" id="password" placeholder="Senha">
+    <button id="loginBtn">Entrar</button>
+  </div>
+
+  <div id="main" class="hidden">
+    <header>
+      <h1>Mercadinho Digital</h1>
+      <button id="checkoutBtn">Finalizar Compra</button>
+    </header>
+
+    <div id="catalog-container"></div>
+
+    <aside id="cart">
+      <h2>Carrinho</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: R$ <span id="total">0.00</span></p>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
